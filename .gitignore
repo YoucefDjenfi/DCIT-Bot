@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+
+# Environment
+.env
+
+# Vector database and BM25 index (auto‑generated)
+chroma_db/
+bm25_index.pkl
+
+# PDF knowledge base (large files, not tracked)
+knowledge_base/*.pdf
+knowledge_base/*.PDF
+!knowledge_base/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
