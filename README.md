@@ -179,4 +179,3 @@ git add README.md
 git commit -m "docs: clean README, remove shellmates leftovers"
 git push
 ```
-```
