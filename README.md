@@ -171,11 +171,3 @@ DCIT-Bot/
 - **Algerian government** – for publishing legal texts openly.
 
 The original Shellmates fork is archived at github.com/YoucefDjenfi/DCIT-project for transparency.
-
----
-Replace the old `README.md` in your `DCIT-Bot` repository with this cleaned version. Then commit and push:
-```bash
-git add README.md
-git commit -m "docs: clean README, remove shellmates leftovers"
-git push
-```
