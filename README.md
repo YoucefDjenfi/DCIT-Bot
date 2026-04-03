@@ -14,6 +14,8 @@ A Discord bot that answers questions about Algerian cyber law, digital citizensh
 
 The assistant never invents laws — it only answers from the provided PDFs. It cites articles and penalties directly from the texts.
 
+> 📘 **Language note:** This bot is engineered to answer **in French**, because the DCIT ("Citoyenneté Numérique et IA") module is the only course at ESI Alger officially taught in French. English and Arabic questions are accepted but the answer will always be in French.
+
 ---
 
 ## ⚖️ How the RAG Assistant Works
