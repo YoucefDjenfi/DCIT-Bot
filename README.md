@@ -19,7 +19,7 @@ The assistant never invents laws — it only answers from the provided PDFs. It 
 
 ## ⚖️ How the RAG Assistant Works
 
-
+```markdow
 knowledge_base/ (PDFs)
 │
 ▼
@@ -40,6 +40,7 @@ rag_query.py ──── query expansion (Nmap → "394 bis accès frauduleux")
 │
 ▼
 bot/cogs/cyber_law_ai.py ──── /ask-law, /law-help
+```
 
 ---
 
