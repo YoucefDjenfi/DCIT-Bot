@@ -1,4 +1,3 @@
-```markdown
 # 🤖 DCIT Bot – Algerian Cyber Law Assistant
 
 A Discord bot that answers questions about Algerian cyber law, digital citizenship, and IT offences. Built for ESI Alger's **Citoyenneté Numérique et IA** module. It uses a hybrid RAG pipeline (BM25 + embeddings + cross‑encoder) grounded in official legal texts.
@@ -20,7 +19,7 @@ The assistant never invents laws — it only answers from the provided PDFs. It 
 
 ## ⚖️ How the RAG Assistant Works
 
-```text
+
 knowledge_base/ (PDFs)
 │
 ▼
@@ -41,7 +40,8 @@ rag_query.py ──── query expansion (Nmap → "394 bis accès frauduleux")
 │
 ▼
 bot/cogs/cyber_law_ai.py ──── /ask-law, /law-help
-```
+
+---
 
 **Key design decisions:** - **Hybrid search** (cosine + BM25) ensures both semantic meaning and exact keywords (e.g., "394 bis") are used.  
 - **Forced TIC fetch** for security‑related queries guarantees that the criminal law articles (394 bis–394 nonies) are always in the context.  
